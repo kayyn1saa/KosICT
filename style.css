@@ -352,7 +352,7 @@ h2 {
 .btn-hero {
   display: inline-block;
   padding: 12px 25px;
-  background: #ff4921;
+  background: #2b775b;
   color: #fff;
   border-radius: 30px;
   text-decoration: none;
@@ -361,7 +361,7 @@ h2 {
 }
 
 .btn-hero:hover {
-  background: #e53e1f;
+  background: #25674f;
 }
 
 /* Sections */
@@ -639,47 +639,6 @@ section {
   line-height: 1.7;
 }
 
-/* --- Mali i Sharrit page enhancements --- */
-/* Banner */
-.sharri-banner {
-  position: relative;
-  height: 45vh;
-  min-height: 280px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: #fff;
-  background: url('https://www.atdheu.com/ressourcen/images/kali-sharrit-kosova.jpg')
-    no-repeat center/cover;
-  border-radius: 16px;
-  margin: 24px auto 0;
-  max-width: 1100px;
-  overflow: hidden;
-}
-
-.sharri-banner .overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.25));
-}
-
-.sharri-banner .banner-inner {
-  position: relative;
-  z-index: 1;
-  padding: 0 16px;
-}
-
-.sharri-banner h2 {
-  margin: 0 0 6px 0;
-  font-size: 2rem;
-  color: white;
-}
-
-.sharri-banner p {
-  margin: 0;
-  opacity: 0.95;
-}
 
 /* Badges */
 .badges {
@@ -775,4 +734,252 @@ section {
 .timeline-item .content p {
   margin: 0;
   color: #333;
+}
+
+/* --- Malet page enhancements --- */
+/* Sharri Banner */
+.sharri-banner {
+  position: relative;
+  height: 45vh;
+  min-height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  background: url('https://www.atdheu.com/ressourcen/images/kali-sharrit-kosova.jpg')
+    no-repeat center/cover;
+  border-radius: 16px;
+  margin: 24px auto 0;
+  max-width: 1100px;
+  overflow: hidden;
+}
+
+.sharri-banner .overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.25));
+}
+
+.sharri-banner .banner-inner {
+  position: relative;
+  z-index: 1;
+  padding: 0 16px;
+}
+
+.sharri-banner h2 {
+  margin: 0 0 6px 0;
+  font-size: 2rem;
+  color: white;
+}
+
+.sharri-banner p {
+  margin: 0;
+  opacity: 0.95;
+}
+
+/* Nemuna Banner */
+.nemuna-banner {
+  position: relative;
+  height: 45vh;
+  min-height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  background: url('./images/Bjeshket-Nemuna-National-Park-Kosovo-Prokletije.jpg')
+    no-repeat center/cover;
+  border-radius: 16px;
+  margin: 24px auto 0;
+  max-width: 1100px;
+  overflow: hidden;
+}
+
+.nemuna-banner .overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.25));
+}
+
+.nemuna-banner .banner-inner {
+  position: relative;
+  z-index: 1;
+  padding: 0 16px;
+}
+
+.nemuna-banner h2 {
+  margin: 0 0 6px 0;
+  font-size: 2rem;
+  color: white;
+}
+
+.nemuna-banner p {
+  margin: 0;
+  opacity: 0.95;
+}
+/* Gjeravica Banner */
+.gjeravica-banner {
+  position: relative;
+  height: 45vh;
+  min-height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  background: url('./images/Gjeravica-Lake.jpg')
+    no-repeat center/cover;
+  border-radius: 16px;
+  margin: 24px auto 0;
+  max-width: 1100px;
+  overflow: hidden;
+}
+
+.gjeravica-banner .overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.25));
+}
+
+.gjeravica-banner .banner-inner {
+  position: relative;
+  z-index: 1;
+  padding: 0 16px;
+}
+
+.gjeravica-banner h2 {
+  margin: 0 0 6px 0;
+  font-size: 2rem;
+  color: white;
+}
+
+.gjeravica-banner p {
+  margin: 0;
+  opacity: 0.95;
+}
+
+/* Rugova Banner */
+.rugova-banner {
+  position: relative;
+  height: 45vh;
+  min-height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  background: url('./images/rugova')
+    no-repeat center/cover;
+  border-radius: 16px;
+  margin: 24px auto 0;
+  max-width: 1100px;
+  overflow: hidden;
+}
+
+.rugova-banner .overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.25));
+}
+
+.rugova-banner .banner-inner {
+  position: relative;
+  z-index: 1;
+  padding: 0 16px;
+}
+
+.rugova-banner h2 {
+  margin: 0 0 6px 0;
+  font-size: 2rem;
+  color: white;
+}
+
+.rugova-banner p {
+  margin: 0;
+  opacity: 0.95;
+}
+
+/* Luboteni Banner */
+.luboteni-banner {
+  position: relative;
+  height: 45vh;
+  min-height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  background: url('./images/shtigje.luboten.jpg')
+    no-repeat center/cover;
+  border-radius: 16px;
+  margin: 24px auto 0;
+  max-width: 1100px;
+  overflow: hidden;
+}
+
+.luboteni-banner .overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.25));
+}
+
+.luboteni-banner .banner-inner {
+  position: relative;
+  z-index: 1;
+  padding: 0 16px;
+}
+
+.luboteni-banner h2 {
+  margin: 0 0 6px 0;
+  font-size: 2rem;
+  color: white;
+}
+
+.luboteni-banner p {
+  margin: 0;
+  opacity: 0.95;
+}
+/* Pashtriku Banner */
+.pashtriku-banner {
+  position: relative;
+  height: 45vh;
+  min-height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  background: url('./images/pashtriku')
+    no-repeat center/cover;
+  border-radius: 16px;
+  margin: 24px auto 0;
+  max-width: 1100px;
+  overflow: hidden;
+}
+
+.pashtriku-banner .overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.25));
+}
+
+.pashtriku-banner .banner-inner {
+  position: relative;
+  z-index: 1;
+  padding: 0 16px;
+}
+
+.pashtriku-banner h2 {
+  margin: 0 0 6px 0;
+  font-size: 2rem;
+  color: white;
+}
+
+.pashtriku-banner p {
+  margin: 0;
+  opacity: 0.95;
+}
+.thumb {
+  width: 100%;
 }
