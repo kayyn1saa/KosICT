@@ -316,7 +316,7 @@ h2 {
 /* Hero Header */
 .hero {
   position: relative;
-  background: url('https://www.kosovo-vacations.com/ressourcen/images/kosovo.jpg')
+  background: url('./images/kosovo.jpg')
     no-repeat center center/cover;
   display: flex;
   align-items: center;
@@ -982,4 +982,38 @@ section {
 }
 .thumb {
   width: 100%;
+}
+/*Rreth Nesh- Më shumë për ne*/
+.about-us {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
+}
+
+.about-us .cs-box {
+  background: linear-gradient(135deg, #52ab98 0%, #2b775b 100%);
+  color: #fff;
+  padding: 40px 28px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
+  height: 400px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-us .cs-box h2 {
+  margin: 0 0 10px 0;
+  font-size: 2rem;
+  color: white;
+}
+
+.about-us .cs-box p {
+  margin: 0 0 18px 0;
+  line-height: 1.7;
 }
