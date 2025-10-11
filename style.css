@@ -296,7 +296,7 @@ h2 {
 }
 
 #faq .faq.open h3::after {
-  content: '−';
+  content:'-';
 }
 
 /* Collapsible answer */
